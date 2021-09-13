@@ -63,3 +63,10 @@ Added features X, Y, and Z.
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
+
+
+### Resources
+
+[**VS Code guide**](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide)
+[**TextMate grammer**](https://macromates.com/manual/en/language_grammars)
+
