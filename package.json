@@ -1,0 +1,25 @@
+{
+    "name": "cfn-guard",
+    "displayName": "cfn-guard",
+    "description": "language support for AWS CloudFormation guard DSL",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "cfn-guard",
+            "aliases": ["ClouldFormation Guard DSL", "cfn-guard"],
+            "extensions": [".guard"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "cfn-guard",
+            "scopeName": "source.guard",
+            "path": "./syntaxes/cfn-guard.tmLanguage.json"
+        }]
+    }
+}
